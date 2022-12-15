@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Zen Dots', cursive;
+    background-color: darkgrey;
+}
+
+.container {
+    max-width: 1280px;
+    width: auto;
+    margin: 0 auto;
+}
+
+header img {
+    margin: 8px;
+    height: 65px;
+}
+
+header {
+    background-color: rgba(9, 9, 9, 0.321);
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 20px;
+}
+
+header nav li a {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+header nav li a:hover {
+    color: red;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h2 {
+    font-size: 36px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.news {
+    max-width: 1280px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+section .news article {
+    margin-right: 24px;
+}
+
+section .news article img {
+    max-width: 100%;
+}
+
+section .news p {
+    font-size: 12px;
+    cursor: pointer;
+}
+
+section .news p:hover {
+    color: red;
+}
+
+h3 {
+    margin: 24px;
+    font-size: 15px;
+}
+
+.wallpaper2 {
+    max-width: 1280px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+section .wallpaper2 img {
+    max-width: 300px;
+    position: relative;
+}
+
+section .wallpaper2 img:hover {
+    top: -4px;
+    box-shadow: 0 4px 2px rgb(255, 0, 0)
+}
+
+form input,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form button {
+    background-color: black;
+    color: #fff;
+    cursor: pointer;
+    margin-bottom: 24px;
+}
+
+form button:hover {
+    background-color: red;
+}
+
+footer {
+    background-color: rgba(9, 9, 9, 0.321);
+    height: 100px;
+    font-size: 10px;
+    text-align: justify;
+    width: auto;
+}
+
+footer img {
+    width: 35px;
+    display: inline;
+}
